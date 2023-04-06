@@ -48,35 +48,16 @@ And here is the same stack trace using the `ReverseStackTraces.jl` package:
 
 ```julia
 ERROR: LoadError:
+
 Stacktrace (reverse order):
  [4] top-level scope
    @ ~/gitrepos/ReverseStackTraces.jl/test/runtests.jl:20
-
-    |
-  20|    ModuleA.func_a(1)
-    |
-
  [3] func_a(#unused#::Int64)
    @ Main.ModuleA ~/gitrepos/ReverseStackTraces.jl/test/runtests.jl:17
-
-    |
-  17|    func_a(::Int) = ModuleB.func_b("a", 1 // 3)
-    |
-
  [2] func_b(#unused#::String, #unused#::Rational{Int64})
    @ Main.ModuleB ~/gitrepos/ReverseStackTraces.jl/test/runtests.jl:11
-
-    |
-  11|    func_b(::String, ::Rational) = ModuleC.func_c()
-    |
-
  [1] func_c()
    @ Main.ModuleC ~/gitrepos/ReverseStackTraces.jl/test/runtests.jl:5
-
-    |
-   5|    func_c() = 1 + "1"
-    |
-
 
 MethodError: no method matching +(::Int64, ::String)
 Closest candidates are:
