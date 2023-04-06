@@ -1,6 +1,6 @@
 # ReverseStackTraces.jl
 
-`ReverseStackTraces.jl` is an experimental Julia package that provides a way to display stack traces in reverse order, with the stack being ordered bottom to top.
+`ReverseStackTraces.jl` is an experimental Julia package that provides a way to display stack traces in reverse order, with the stacktrace being ordered bottom to top.
 This can be useful in certain debugging scenarios where you have long stacktraces and you want to minimize scrolling.
 
 ### Installation
