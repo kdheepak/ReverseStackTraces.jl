@@ -76,3 +76,4 @@ Contributions to `ReverseStackTraces.jl` are welcome! To get started, please ope
 
 - https://github.com/BioTurboNick/AbbreviatedStackTraces.jl
 - https://github.com/jkrumbiegel/ClearStacktrace.jl
+- https://github.com/Cvikli/RelevanceStacktrace.jl
