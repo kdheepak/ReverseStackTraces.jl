@@ -2,3 +2,6 @@ name = "ReverseStackTraces"
 uuid = "755d2ad4-7ed4-4791-99e6-179f2b4884dd"
 authors = ["Dheepak Krishnamurthy <me@kdheepak.com>"]
 version = "0.1.0"
+
+[compat]
+julia = "1.8"
