@@ -8,7 +8,7 @@ This can be useful in certain debugging scenarios where you have long stacktrace
 To install the package, open a Julia REPL and run:
 
 ```julia
-] add https://github.com/kdheepak/ReverseStackTraces.jl
+] add ReverseStackTraces.jl
 ```
 
 ### Usage
