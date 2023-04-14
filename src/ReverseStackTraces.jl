@@ -1,5 +1,4 @@
 module ReverseStackTraces
-__precompile__(false)
 
 function Base.showerror(io::IO, ex, bt; backtrace=true)
   backtrace && Base.show_backtrace(io, bt)
